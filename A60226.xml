@@ -1,0 +1,949 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The manners and customs of the principal nations of Europe gathered together by the particular observation of James Salgado ... in his travels through those countries ; and translated into English by the authors care, anno 1684.</title>
+            <author>Salgado, James, fl. 1680.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1684</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 18 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A60226</idno>
+            <idno type="STC">Wing S378</idno>
+            <idno type="STC">ESTC R14268</idno>
+            <idno type="EEBO-CITATION">12390697</idno>
+            <idno type="OCLC">ocm 12390697</idno>
+            <idno type="VID">60986</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A60226)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 60986)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 225:21)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The manners and customs of the principal nations of Europe gathered together by the particular observation of James Salgado ... in his travels through those countries ; and translated into English by the authors care, anno 1684.</title>
+                  <author>Salgado, James, fl. 1680.</author>
+               </titleStmt>
+               <extent>[4] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by T. Snowden for the author,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1684.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>In double columns, English and Latin verse.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Manners and customs in literature.</term>
+               <term>Europe --  Social life and customs --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-08</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-08</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="text">
+            <pb facs="tcp:60986:1"/>
+            <pb n="1" facs="tcp:60986:1" rendition="simple:additions"/>
+            <head>THE MANNERS AND CUSTOMS Of the Principal Nations of EUROPE.</head>
+            <byline>Gathered together by the particular Obſervation of JAMES SALGADO, a <hi>Spaniard,</hi> in his Travels through thoſe Countries; and Tranſlated into Engliſh by the Authors Care, <date>
+                  <hi>Anno</hi> 1684</date>
+            </byline>
+            <div type="poem">
+               <lg>
+                  <head>In Counſel.</head>
+                  <l>THE <hi>German</hi>'s ſlow, but ſure, no froth nor flaſh;</l>
+                  <l>The <hi>Engliſh</hi> reſolute; The <hi>French</hi> are raſh;</l>
+                  <l>The <hi>Italian</hi>'s ſubtile, politick and wiſe;</l>
+                  <l>The <hi>Spaniard</hi> cautions, wary to adviſe.</l>
+               </lg>
+               <lg>
+                  <head>In Conſilio.</head>
+                  <l>
+                     <hi>COnſilio eſt lentus Germanus; Fortiter autem</hi>
+                  </l>
+                  <l>
+                     <hi>Anglia res tractat; Gallia precipitat;</hi>
+                  </l>
+                  <l>
+                     <hi>Italus eſt ſemper ſubtilis, ſingula luſtrans;</hi>
+                  </l>
+                  <l>
+                     <hi>Cautus &amp; Hiſpanus proſpicit acta ſua.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Faith.</head>
+                  <l>The <hi>German's</hi> firm; the <hi>Engliſh</hi> doth diſtruſt;</l>
+                  <l>The <hi>French</hi> unſtable, light as Summers Duſt;</l>
+                  <l>The <hi>Italian</hi> does, as Int'reſt bids, believe;</l>
+                  <l>The <hi>Spaniards</hi> Faith is, that he may deceive.</l>
+               </lg>
+               <lg>
+                  <head>In Fide.</head>
+                  <l>
+                     <hi>Germanus retinet promiſſum; Diffidit Anglus;</hi>
+                  </l>
+                  <l>
+                     <hi>Eſſe levem Gallum frons probat; Italia</hi>
+                  </l>
+                  <l>
+                     <hi>Reſpicit ut Centrum ſua commoda: Nec dubitamus</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpani Genium dicere fraude malum.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Love.</head>
+                  <l>The <hi>Germans</hi> know not what this paſſion means;</l>
+                  <l>The <hi>Engliſh</hi> ſomewhat; <hi>France</hi> is all extreams;</l>
+                  <l>The <hi>Italian</hi> Loves Intrigues can carry on;</l>
+                  <l>The <hi>Spaniard</hi> Loves to purpoſe like a Man.</l>
+               </lg>
+               <lg>
+                  <head>In Amore.</head>
+                  <l>
+                     <hi>Delicias Artis Germania neſcit amandi;</hi>
+                  </l>
+                  <l>
+                     <hi>Anglus amat formam conveniente loco;</hi>
+                  </l>
+                  <l>
+                     <hi>Gallus amat ſemper; ſtudio moderatur amorem</hi>
+                  </l>
+                  <l>
+                     <hi>Italus; Hiſpanus novit amare bene.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Stature.</head>
+                  <l>The <hi>Germans</hi> they are bulky, big, and tall;</l>
+                  <l>The <hi>Engliſh</hi> comly, well proportion'd all;</l>
+                  <l>The <hi>French</hi> do twine, and twiſt their Bodies ſo,</l>
+                  <l>That th'Devil himſelf can ſcarce their Stature know;</l>
+                  <l>The <hi>Italian</hi>'s middle ſiz'd, not ſhort, nor tall;</l>
+                  <l>The <hi>Spaniard</hi> is ill featur'd, ſwarthy, ſmall.</l>
+               </lg>
+               <lg>
+                  <head>In Statura.</head>
+                  <l>
+                     <hi>Corpore procerus fertur Germanus; Et Angles</hi>
+                  </l>
+                  <l>
+                     <hi>Pulcher in ore color corpora concelebrat;</hi>
+                  </l>
+                  <l>
+                     <hi>Geſtibus eſt pictus Gallus; Tu<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> Itale ſervas</hi>
+                  </l>
+                  <l>
+                     <hi>Quod decet; Hiſpanus ſquallidus uſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> manet.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <pb n="2" facs="tcp:60986:2"/>
+               <lg>
+                  <head>In Clothes.</head>
+                  <l>The <hi>G<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rman</hi>'s Garb is courſe, Cloath ſpun at home;</l>
+                  <l>The <hi>French</hi> and <hi>Engliſh</hi> change with every Moon;</l>
+                  <l>In all their changes laviſhly profuſe,</l>
+                  <l>As though 'twas all for ſhow, and not for uſe;</l>
+                  <l>In their Apparel the <hi>Italians</hi> ſpare;</l>
+                  <l>And all the <hi>Spaniards</hi> very modeſt are.</l>
+               </lg>
+               <lg>
+                  <head>In Veſtibus.</head>
+                  <l>
+                     <hi>Pauperis eſt inſtar Germanus; Prod gus Anglus;</hi>
+                  </l>
+                  <l>
+                     <hi>Mutat Gallus amans; Parcus habetur enim</hi>
+                  </l>
+                  <l>
+                     <hi>Italus ad Veſtes quod ſpectat; ſe<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> modeſtum</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanus perhibet; nam novitate caret.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Science.</head>
+                  <l>The <hi>Germans</hi> Pedants are in Sciences;</l>
+                  <l>The <hi>Engliſh</hi> Philoſophically wiſe;</l>
+                  <l>The <hi>French</hi> do's ſomething of all Knowledge ſound;</l>
+                  <l>
+                     <hi>Italians</hi> Doctor-like; <hi>Spaniards</hi> profound.</l>
+               </lg>
+               <lg>
+                  <head>In Scientia.</head>
+                  <l>
+                     <hi>Mimicus affectat Germanus ſingula; At Angli</hi>
+                  </l>
+                  <l>
+                     <hi>Philoſophos referunt; Gallia ſcitque aliquid</hi>
+                  </l>
+                  <l>
+                     <hi>Ex multis; Similis Doctoribus Italus eſtque;</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanus penetrat quaeque profunda citò.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Secrecy.</head>
+                  <l>What <hi>Germans</hi> hear, it gets out of their head;</l>
+                  <l>The <hi>Engliſh</hi> know what ſhould be done, or ſaid;</l>
+                  <l>The Leaky <hi>French</hi> for Secrecy are Fools;</l>
+                  <l>Secrets run through them, through ſome thouſand holes:</l>
+                  <l>The mute <hi>Italian</hi> has no Tongue for this;</l>
+                  <l>The <hi>Spaniard</hi> cloſe, faithful, and ſilent is.</l>
+               </lg>
+               <lg>
+                  <head>In Secreto.</head>
+                  <l>
+                     <hi>Germanus languens totum obliviſcitur; Anglus</hi>
+                  </l>
+                  <l>
+                     <hi>Prudenter loquitur; Gallia nil<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> tacet;</hi>
+                  </l>
+                  <l>
+                     <hi>Italus abſcondit ſibi tradita mente ſilenti;</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanus reſerat nulla tacenda ſibi.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Language.</head>
+                  <l>The <hi>Germans</hi> mad-men like, ſpeak wild and bold;</l>
+                  <l>The <hi>Engliſh</hi> ſpeaks, for fear his Mouth catch cold,</l>
+                  <l>Like Lady ſmall-mouth; and the <hi>French</hi> do's cant,</l>
+                  <l>As Madam-ſinging, agrees in Patch and Paint;</l>
+                  <l>The <hi>Italian</hi> like Stage-Play'rs acts his words;</l>
+                  <l>The manly <hi>Spaniard</hi> Nature's Voice affords.</l>
+               </lg>
+               <lg>
+                  <head>In Lingua.</head>
+                  <l>
+                     <hi>Haud aliter loquitur Germanus, quàm furibundus;</hi>
+                  </l>
+                  <l>
+                     <hi>Angli Lingua refert ſemineum Genium;</hi>
+                  </l>
+                  <l>
+                     <hi>Gallus ut eſt Cantor; ſic Italus Hiſtrio fertur;</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanus loquitur verba decora quidem.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Injuries and Favours.</head>
+                  <l>The <hi>Germans</hi> neither good nor evil do;</l>
+                  <l>The <hi>Engliſh</hi> both, it Cauſes call thereto;</l>
+                  <l>The <hi>French</hi> their good forget, their wrongs forgive;</l>
+                  <l>The <hi>Italians</hi> love, whom they their Friends believe,</l>
+                  <l>Firm to their hate, in their Revenge they're mad;</l>
+                  <l>The <hi>Spaniard</hi>'s moſt alike, if not as bad.</l>
+               </lg>
+               <lg>
+                  <head>In Injuriis, &amp; Beneficiis.</head>
+                  <l>
+                     <hi>Germanus cyphra eſt; Anglus mala, bella<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> praeſtat;</hi>
+                  </l>
+                  <l>
+                     <hi>Nulla recordatur Gallulus acta ſibi;</hi>
+                  </l>
+                  <l>
+                     <hi>Italus ex damno rabidus ſit, commoda penſans;</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanuſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> bonum connotat, a<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                        <expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> malum.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Feaſting.</head>
+                  <l>The <hi>German</hi> drowns in Wine his Wits, and Might,</l>
+                  <l>
+                     <hi>In various Plenty th'Engliſh</hi> do delight;</l>
+                  <l>
+                     <hi>Mounſieur</hi>'s for kick-ſhaws delicate, fine knacks;</l>
+                  <l>The <hi>Italian</hi>'s ſober; but the <hi>Spaniard</hi> lacks;</l>
+                  <l>When he does feaſt his Lords and Dukes, he has</l>
+                  <l>But one poor pound of Meat, and twelve of Graſs.</l>
+               </lg>
+               <lg>
+                  <head>In Conviviis.</head>
+                  <l>
+                     <hi>Ebrietas vincit Germanos; Anglus abundat;</hi>
+                  </l>
+                  <l>
+                     <hi>Gallia, mente levis, delicioſa manet;</hi>
+                  </l>
+                  <l>
+                     <hi>Sobria Gens Romae eſt; Parcuſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> Hiſpanus habenas</hi>
+                  </l>
+                  <l>
+                     <hi>Uſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> negat ſtomacho; nam brevis offa datur.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Manners.</head>
+                  <l>The <hi>German</hi>'s clowniſh; th'<hi>Engliſh are auſtere;</hi>
+                  </l>
+                  <l>The <hi>French</hi> are courteous, kind, and Debonair;</l>
+                  <l>Th' <hi>Italian</hi>'s in his Carriage very civil;</l>
+                  <l>The ſcornful <hi>Spaniard</hi> proud as any Devil.</l>
+               </lg>
+               <lg>
+                  <head>In Moribus.</head>
+                  <l>
+                     <hi>Moribus aggreſtis Germania dicitur; Anglus</hi>
+                  </l>
+                  <l>
+                     <hi>Auſterus geſtu eſt; Gallia ſemper amat</hi>
+                  </l>
+                  <l>
+                     <hi>Urbanos homines: Civilia praeſtat, &amp; optat</hi>
+                  </l>
+                  <l>
+                     <hi>Italus; Hiſpanus temnere ſaepe ſolet.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Courage and Mind.</head>
+                  <l>Rough like a Bear, the <hi>Germans</hi> ſeem to us;</l>
+                  <l>Like Lions the <hi>Engliſh,</hi> Great and Generous;</l>
+                  <l>Quick piercing Eagle-like the <hi>French;</hi> no leſs</l>
+                  <l>Th' <hi>Italian</hi> Fox-like, thrives by craftineſs;</l>
+                  <l>The <hi>Spaniard</hi> bears an Elephant-like ſtate,</l>
+                  <l>Majeſtick, ſlow, grave, and deliberate.</l>
+               </lg>
+               <lg>
+                  <head>In Animo, &amp; Audacia.</head>
+                  <l>
+                     <hi>Urſa etenim es Germane ferox; Ac ut Leoſaevis</hi>
+                  </l>
+                  <l>
+                     <hi>Anglia; Galle quidem nunc Aquilam ſequeris;</hi>
+                  </l>
+                  <l>
+                     <hi>Itale tu ſpectas cautae v<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſtigia Vulpis;</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanuſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> Elephas, pondera magna feret.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <pb n="3" facs="tcp:60986:2" rendition="simple:additions"/>
+               <lg>
+                  <head>In Grandeur and Statelineſs.</head>
+                  <l>The <hi>German</hi>'s Grandeur is where none doth ſee;</l>
+                  <l>The <hi>Engliſh</hi> love Magnificence at Sea;</l>
+                  <l>But the <hi>French</hi> Court is glorious, great and brave;</l>
+                  <l>And ſumptuous Churches will the <hi>Italians</hi> have;</l>
+                  <l>The <hi>Spaniard</hi> loves his Armour ſhould be fine,</l>
+                  <l>And ſeeks in ſplendid Coats of Mail to ſhine.</l>
+               </lg>
+               <lg>
+                  <head>In Magnificentia.</head>
+                  <l>
+                     <hi>Angulus eſt Teſtis num ſit Germania ſplendens;</hi>
+                  </l>
+                  <l>
+                     <hi>Angelus eſt Anglus, magnificuſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> mari;</hi>
+                  </l>
+                  <l>
+                     <hi>In<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> Aula Gallus verſabitur; Italus ornat</hi>
+                  </l>
+                  <l>
+                     <hi>Templa ſua; Hiſpanus ferra gerendo micat.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Beauty.</head>
+                  <l>The <hi>Germans</hi> ſeem like Statues made of Braſs;</l>
+                  <l>The <hi>French</hi> has Mans, the <hi>Engliſh</hi> Angels face;</l>
+                  <l>The <hi>Italians</hi> ſo and ſo; but you may trace</l>
+                  <l>The Devil's Hoof, i'th' <hi>Spaniards</hi> cloven Face.</l>
+               </lg>
+               <lg>
+                  <head>In Pulchritudine.</head>
+                  <l>
+                     <hi>Germanus Statuam formâ demonſtrat; At Anglu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi>
+                  </l>
+                  <l>
+                     <hi>Angelus eſt; hominem tu bene Galle refers;</hi>
+                  </l>
+                  <l>
+                     <hi>Italus en medium ſibi poſſidet; Ater ab ortu</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanus Furiis aſſimilandus erit.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Writing.</head>
+                  <l>The <hi>Germans</hi> ſpeak but bad, yet much do write;</l>
+                  <l>The <hi>Engliſh</hi> Speech's not well, his Lines polite;</l>
+                  <l>The <hi>French</hi> ſpeak well, yet they can beſt indite;</l>
+                  <l>The <hi>Italian</hi> is but ſo and ſo in both;</l>
+                  <l>The <hi>Spaniard</hi> would do well were't not for ſloth.</l>
+               </lg>
+               <lg>
+                  <head>In Scriptura.</head>
+                  <l>
+                     <hi>Germanus Linguâ loquitur malè, multa<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> ſcribit;</hi>
+                  </l>
+                  <l>
+                     <hi>Linguâ Anglus peccat, ſcribit at ille bene;</hi>
+                  </l>
+                  <l>
+                     <hi>Sermonem Gallis exornat ſcriptio; ſcribit</hi>
+                  </l>
+                  <l>
+                     <hi>Italus ut medius; pulchra<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> ſcribit Iber.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Preſence.</head>
+                  <l>The <hi>German</hi> is a Sot, ſo ſpeak his Eyes;</l>
+                  <l>The <hi>Engliſh</hi> looks not over Fool, nor wiſe;</l>
+                  <l>The <hi>French</hi> ſeems mad, yet few their wit can ſcan;</l>
+                  <l>The <hi>Italian</hi> ſeems, and is a prudent man;</l>
+                  <l>But formal <hi>Spaniard</hi> with's deep Gravity,</l>
+                  <l>Would fain ſeem wiſe, yet none more Fool than he.</l>
+               </lg>
+               <lg>
+                  <head>In Praeſentia.</head>
+                  <l>
+                     <hi>Apparet demens Germanus, fit quo<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> demens;</hi>
+                  </l>
+                  <l>
+                     <hi>Angle, Tibi alterutrum dicere nemo poteſt;</hi>
+                  </l>
+                  <l>
+                     <hi>Inſanire putes Gallos (hui!) Ut (Itale) dicunt,</hi>
+                  </l>
+                  <l>
+                     <hi>Tu ſapis; Hiſpanus ſtultus, &amp; uſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> gravis.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Laws.</head>
+                  <l>The <hi>Germans</hi> Laws are rigid and ſevere,</l>
+                  <l>Yet towards theſe they ſtrict Obſervance bear;</l>
+                  <l>
+                     <hi>France</hi> to good Laws gives no Obedience due;</l>
+                  <l>The <hi>Engliſh</hi> ſtill are hankering after new;</l>
+                  <l>The <hi>Italians</hi> have good Laws, which they obſerve;</l>
+                  <l>The <hi>Spaniards</hi> from not good nor bad dare ſwerve.</l>
+               </lg>
+               <lg>
+                  <head>In Legibus.</head>
+                  <l>
+                     <hi>Germanus ſtrict as Leges obſervat; Et Anglus</hi>
+                  </l>
+                  <l>
+                     <hi>Saepe novas optat; Gallia tranſgreditur;</hi>
+                  </l>
+                  <l>
+                     <hi>Italus, ecce! bonas Leges cuſtodit; At omnes</hi>
+                  </l>
+                  <l>
+                     <hi>Fervidus Hiſpanus proſequitur ſtudio.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Service.</head>
+                  <l>
+                     <hi>Germans</hi> are Slaves; the <hi>Engliſh</hi> Free-men all;</l>
+                  <l>Humble the <hi>French;</hi> the <hi>Italian</hi> punctual;</l>
+                  <l>The <hi>Spaniard,</hi> as it do's his ſtate befit,</l>
+                  <l>In Service 'doth obediently ſubmit.</l>
+               </lg>
+               <lg>
+                  <head>In Servitio.</head>
+                  <l>
+                     <hi>Mancipium perſtat Germanus; Liber at Anglus;</hi>
+                  </l>
+                  <l>
+                     <hi>Se<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> humilem Gallus praebet, &amp; optat onus;</hi>
+                  </l>
+                  <l>
+                     <hi>Italus in punctis verſabitur ordine certo;</hi>
+                  </l>
+                  <l>
+                     <hi>Subditus Hiſpanus praeſtat agenda citò.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Humour and Diſpoſition.</head>
+                  <l>The <hi>German</hi>'s changeable like Wind and Air;</l>
+                  <l>The <hi>French</hi> is chearful, brisk, and jocular;</l>
+                  <l>The <hi>Engliſh</hi> is conſorious, full of Gall,</l>
+                  <l>Tart in Reflections, and Satyrical;</l>
+                  <l>The <hi>Italian</hi> he is Complaiſant and Brave;</l>
+                  <l>The <hi>Spaniard</hi> Majeſtick is and Grave.</l>
+               </lg>
+               <lg>
+                  <head>In Humore.</head>
+                  <l>
+                     <hi>Germanus varius perhibetur; Momus &amp; Anglus;</hi>
+                  </l>
+                  <l>
+                     <hi>Mimicus en Gallus ſcit Joca laeta dare.</hi>
+                  </l>
+                  <l>
+                     <hi>Italus, ut ſocius, cunctis placet; Ac gravitatem</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanus retinet, quam retinere cupit.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Religion.</head>
+                  <l>The <hi>German</hi> is Religious throughout;</l>
+                  <l>Zealous the <hi>French;</hi> the <hi>Engliſh</hi> are devout;</l>
+                  <l>Th' <hi>Italians</hi> every Superſtition try;</l>
+                  <l>The <hi>Spaniard</hi>'s ſtuft with grave Hypocriſie.</l>
+               </lg>
+               <lg>
+                  <head>In Religione.</head>
+                  <l>
+                     <hi>Religionis amor per te Germania ſplendae</hi>
+                  </l>
+                  <l>
+                     <hi>Anglia devotis dat documenta viris;</hi>
+                  </l>
+                  <l>
+                     <hi>Gallo Zelus ineſt, Idola<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> muta veretur</hi>
+                  </l>
+                  <l>
+                     <hi>Italus; Hiſpanus diſſimulare doce<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <pb n="4" facs="tcp:60986:3"/>
+               <lg>
+                  <head>In Marriage.</head>
+                  <l>The <hi>German</hi>'s Lord and Maſter of his Wife;</l>
+                  <l>The <hi>Engliſh</hi> with them lead a ſlaviſh life;</l>
+                  <l>The <hi>French</hi> like yoke-fellows, keep to the Law</l>
+                  <l>Of their Eſtate, and equally do draw;</l>
+                  <l>Th' <hi>Italians</hi> Wives may them their Jaylors call;</l>
+                  <l>The <hi>Spaniard</hi>'s cruel, and tyrannical.</l>
+               </lg>
+               <lg>
+                  <head>In Matrimonio.</head>
+                  <l>
+                     <hi>Germanus Dominus; ſervus quo<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> dicitur Anglus;</hi>
+                  </l>
+                  <l>
+                     <hi>Gallus at eſt ſocius; vita beata quidem!</hi>
+                  </l>
+                  <l>
+                     <hi>Italus eſt dirus cuſtos; Nomen<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> Tyranni</hi>
+                  </l>
+                  <l>
+                     <hi>Accipit Hiſpanus; ſaevit enim ra<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>idè</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>The Women.</head>
+                  <l>The <hi>German</hi> Women are good, chaſt, and cold;</l>
+                  <l>In <hi>England</hi> they are <hi>Queens,</hi> free, head-ſtrong, bold;</l>
+                  <l>The <hi>French</hi> are Noble Madams, but (all know't)</l>
+                  <l>They're wanton and laſcivious like a Goat;</l>
+                  <l>Th' <hi>Italians</hi> they are wicked, though confin'd;</l>
+                  <l>In <hi>Spain</hi> they're Handmaids of an Amorous mind.</l>
+               </lg>
+               <lg>
+                  <head>Mulieres.</head>
+                  <l>
+                     <hi>Eſt bona Germani mulier, ſed frigida; Sela</hi>
+                  </l>
+                  <l>
+                     <hi>Anglia Reginas nutrit; &amp; ardet iis,</hi>
+                  </l>
+                  <l>
+                     <hi>Quae Gallos pariunt (heu!) mens turpiſſima; Claudit</hi>
+                  </l>
+                  <l>
+                     <hi>Italus has vinc'lis; Foemina Iberis amat.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Diſeaſes and Infirmities.</head>
+                  <l>The knotty Gout does rack the <hi>German-Toes;</hi>
+                  </l>
+                  <l>The great Sir <hi>P—</hi> gets <hi>Monſieur</hi> by the Noſe;</l>
+                  <l>The Scurvey does the <hi>Engliſh</hi> over-run;</l>
+                  <l>
+                     <hi>Italy</hi> is by Peſtilence undone;</l>
+                  <l>The <hi>Spaniards</hi> for cold Swellings have no eaſe;</l>
+                  <l>King's-Evil is their Catholick Diſeaſe.</l>
+               </lg>
+               <lg>
+                  <head>In Infirmitate.</head>
+                  <l>
+                     <hi>Ecce podagra gravis Germanos occupat; Anglo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi>
+                  </l>
+                  <l>
+                     <hi>Scorbuticus morbus; Gallicus at<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> leves</hi>
+                  </l>
+                  <l>
+                     <hi>Poſſidet en Gallos morbus; ſic Italus urit</hi>
+                  </l>
+                  <l>
+                     <hi>Peſte; Ac Hiſpanos Regius exagitat.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Civil Buſineſs and Meetings.</head>
+                  <l>The <hi>German</hi> well begins, concludes amiſs;</l>
+                  <l>The <hi>Engliſh</hi> man wedded to his Judgment is;</l>
+                  <l>The <hi>French</hi> capricious, windy, giddy, vain;</l>
+                  <l>The <hi>Italian</hi> ſhows he has a Politick Brain;</l>
+                  <l>But various the Conditions of <hi>Spain.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <head>In Negotio &amp; Conventione.</head>
+                  <l>
+                     <hi>Principio Germane bonus, ſed finis in actu</hi>
+                  </l>
+                  <l>
+                     <hi>Es malus; Angle tuum dogma perenne manet;</hi>
+                  </l>
+                  <l>
+                     <hi>Galle petis ventos; Romana Politica gens eſt;</hi>
+                  </l>
+                  <l>
+                     <hi>Tu Caute Hiſpane es conditionis amans.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Merchandizing.</head>
+                  <l>The <hi>Germans</hi> care at laſt, at firſt neglect;</l>
+                  <l>Gain puffs not th' <hi>Engliſh,</hi> nor does loſs deject;</l>
+                  <l>
+                     <hi>French</hi> covet all, if without any pain;</l>
+                  <l>Th' <hi>Italian</hi> well doth weigh his loſs and gain;</l>
+                  <l>The <hi>Spaniard</hi> never did great feats in Trade,</l>
+                  <l>Becauſe to venture far he is afraid.</l>
+               </lg>
+               <lg>
+                  <head>In Mercatura.</head>
+                  <l>
+                     <hi>Principio friget Germanus, deni<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> fervet;</hi>
+                  </l>
+                  <l>
+                     <hi>Commoda, nec damnum computat Anglus; Agis</hi>
+                  </l>
+                  <l>
+                     <hi>Galle tenax, pauca; Ah! gemis Itale damna videndo;</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanuſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> timens cuncta, parum peragit.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <lg>
+                  <head>In Travelling.</head>
+                  <l>The <hi>Germans</hi> Travel, 'cauſe their Cuſtom 'tis;</l>
+                  <l>Th' <hi>Engliſh</hi> a Fool's humour for to pleaſe;</l>
+                  <l>Th' <hi>Italian,</hi> and the <hi>French,</hi> like wiſe men, when</l>
+                  <l>They Travel, 'tis to learn both things and men;</l>
+                  <l>The <hi>Spaniard</hi> Travels for ſome want or ſtrife,</l>
+                  <l>To feed his hunger, or to ſave his life.</l>
+               </lg>
+               <lg>
+                  <head>In Itinere.</head>
+                  <l>
+                     <hi>Extera regna videt Germanus, mos ſibi quòd fit;</hi>
+                  </l>
+                  <l>
+                     <hi>Anglos fronſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> movet; Moribus addit opes</hi>
+                  </l>
+                  <l>
+                     <hi>Plurima regna videns Gallus; Tu<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> Itale diſcis;</hi>
+                  </l>
+                  <l>
+                     <hi>Hiſpanum<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> movent maxima damna domi.</hi>
+                  </l>
+               </lg>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>T. Snowden</hi> for the Author. 1684.</p>
+            <pb facs="tcp:60986:3"/>
+         </div>
+      </back>
+   </text>
+</TEI>
